@@ -4,6 +4,7 @@
         "ms-vscode.cpptools",
         "ms-vscode.cmake-tools",
         "cheshirekow.cmake-format",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "redhat.vscode-xml"
     ]
 }
