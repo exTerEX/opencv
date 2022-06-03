@@ -65,7 +65,7 @@ std::vector<std::vector<cv::Point>> locate_plates(cv::Mat &frame)
 
 int main(int argc, const char **argv)
 {
-    cv::Mat img = cv::imread("car.jpg", cv::IMREAD_COLOR);
+    cv::Mat img = cv::imread("assets/data/car.jpg", cv::IMREAD_COLOR);
 
     if (!img.empty())
     {

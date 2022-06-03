@@ -67,7 +67,7 @@ bool debug = true;
 
 int main(int argc, char **argv)
 {
-    cv::Mat img = cv::imread("data/input.jpg", cv::IMREAD_COLOR);
+    cv::Mat img = cv::imread("assets/data/lane.jpg", cv::IMREAD_COLOR);
 
     FindLane obj;
 

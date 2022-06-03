@@ -26,8 +26,8 @@ int main(int argc, const char **argv)
     cv::CommandLineParser parser(
         argc, argv,
         "{help h||}"
-        "{face-cascade|data/model/haarcascade_frontalface_alt.xml|}"
-        "{eye-cascade|data/model/haarcascade_eye_tree_eyeglasses.xml|}"
+        "{face-cascade|assets/model/haarcascade_frontalface_alt.xml|}"
+        "{eye-cascade|assets/model/haarcascade_eye_tree_eyeglasses.xml|}"
         "{@outfile||}"
         "{@infile||}");
 
